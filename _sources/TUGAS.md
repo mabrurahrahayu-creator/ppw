@@ -8,15 +8,16 @@ Penambangan web adalah proses menemukan dan mengekstrak informasi dari internet 
 Penambangan web adalah penggunaan teknik penambangan data untuk secara otomatis menemukan dan mengekstrak informasi dari layanan web" (Etzioni, 1996; CACM 39). 
 Penambangan web bertujuan untuk menemukan pola-pola berguna atau  pengetahuan dari struktur hiperlink web, isi halaman web, serta perilaku pengguna." (Bing Liu, 2007, Web Data Mining).
 
-## What is MyST?
+## Tantangan pemrosesan data web 
 
-MyST stands for "Markedly Structured Text". It
-is a slight variation on a flavor of markdown called "CommonMark" markdown,
-with small syntax extensions to allow you to write **roles** and **directives**
-in the Sphinx ecosystem.
-
-For more about MyST, see [the MyST Markdown Overview](https://jupyterbook.org/content/myst.html).
-
+- Web adalah pangkalan data yang sangat besar.
+- Datanya dalam format HTML,XML, text
+- Tantangan pemrosesan data Web
+    - Web adalah sangat besar untuk dilakukan penambanagn data
+    - web sangat komplek
+    - web sangat dinamis
+    - web bukan domain yang spesifik
+    - web adalah segalanya.
 ## Sample Roles and Directives
 
 Roles and directives are two of the most powerful tools in Jupyter Book. They
