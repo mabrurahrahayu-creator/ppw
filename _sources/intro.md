@@ -1,4 +1,4 @@
-# PROFILE
+## PROFILE
 
 Halo, saya Mabrurah Eka Rahayu, teman-teman biasa memanggil saya Rara. Saat ini, saya sedang menempuh pendidikan S1 di Universitas Trunojoyo Madura, Program Studi Teknik Informatika, dengan NIM 220411100150 dan email mabrurahrahayu@gmail.com.
 
