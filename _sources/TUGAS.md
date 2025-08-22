@@ -1,5 +1,5 @@
 # TUGAS
-## Pengantar Web Mining
+# Pengantar Web Mining
 
 Penambangan web adalah proses mencari dan mengekstrak informasi dari internet dengan menggunakan berbagai teknik data mining. Informasi yang diperoleh dapat membantu perusahaan dalam pengambilan keputusan secara lebih efektif. Berdasarkan tugas utama yang dilakukan selama proses penambangan, web mining dapat dibagi menjadi tiga kategori utama: Web Structure Mining, Web Content Mining, dan Web Usage Mining.
 1. Web Structure Mining : Web structure mining berfokus pada penemuan informasi yang berguna dari hyperlink atau tautan, yang mencerminkan struktur suatu situs web. Contohnya, dari pola tautan kita bisa menemukan halaman web yang penting, yang menjadi dasar teknologi pada mesin pencari. Selain itu, struktur link juga bisa membantu mengidentifikasi komunitas dalam media sosial. Teknik ini tidak dapat dilakukan dengan data mining tradisional, karena data tabel biasa tidak memiliki struktur tautan seperti ini.
@@ -38,36 +38,35 @@ Text mining dapat digunakan untuk berbagai tujuan praktis, seperti:
     - Pengelompokan Dokumen: membagi dokumen ke dalam kelompok berdasarkan kemiripan, misalnya untuk sistem rekomendasi.
     - Ekstraksi Kata Kunci: menemukan istilah atau frasa penting dalam teks.
 
-## Klasifikasi Dokumen
-# Tujuan Klasifikasi
+# Klasifikasi Dokumen
+## Tujuan Klasifikasi
 Proses klasifikasi bertujuan agar dokumen atau gambar yang sebelumnya belum pernah diolah dapat ditempatkan ke dalam kategori yang sesuai dengan tingkat akurasi setinggi mungkin.
 
-# Contoh Penerapan
+## Contoh Penerapan
 Beberapa bidang yang memanfaatkan klasifikasi antara lain:
 - Pengelompokan Berita: menempatkan artikel ke kategori topik tertentu.
 - Pengelompokan Produk: mengklasifikasikan produk berdasarkan jenis atau kategori.
 - Deteksi Spam: mengenali pesan atau konten yang bersifat spam.
 
-# Metode Klasifikasi yang Umum Digunakan
+## Metode Klasifikasi yang Umum Digunakan
 Beberapa teknik populer dalam klasifikasi meliputi:
 - Naive Bayes
 - Support Vector Machines (SVM)
 - Jaringan Saraf Tiruan (Deep Neural Networks)
 - Transformers
 
-## Pengelompokan Konten (Content Clustering)
-
-# Tujuan Pengelompokan (Clustering)
+# Pengelompokan Konten (Content Clustering)
+## Tujuan Pengelompokan (Clustering)
 Diberikan sekumpulan dokumen beserta ukuran kesamaan antar dokumen, tujuan clustering adalah membentuk kelompok sedemikian rupa sehingga:
 - Dokumen di dalam satu kelompok memiliki kemiripan yang tinggi.
 - Dokumen di kelompok yang berbeda memiliki kemiripan yang rendah.
 
-# Contoh Penerapan
+## Contoh Penerapan
 Beberapa aplikasi clustering antara lain:
 - Pengelompokan Hasil Pencarian: menyusun hasil search engine agar dokumen sejenis berada dalam satu kelompok.
 - Penemuan Topik (Topic Discovery): menemukan tema atau topik tersembunyi dalam kumpulan dokumen.
 
-# Teknik dan Metode yang Digunakan
+## Teknik dan Metode yang Digunakan
 
 - Algoritma Clustering: K-Means, Pengelompokan Hierarkis (Hierarchical Clustering), S-BERT.
 - Ukuran Kesamaan (Similarity Measures): Cosine Similarity, Jaccard, atau kesamaan berdasarkan embedding (Similarity of Embeddings).
