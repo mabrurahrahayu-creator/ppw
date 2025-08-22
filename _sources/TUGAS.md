@@ -67,9 +67,16 @@ Beberapa aplikasi clustering antara lain:
 - Penemuan Topik (Topic Discovery): menemukan tema atau topik tersembunyi dalam kumpulan dokumen.
 
 ## Teknik dan Metode yang Digunakan
-
 - Algoritma Clustering: K-Means, Pengelompokan Hierarkis (Hierarchical Clustering), S-BERT.
 - Ukuran Kesamaan (Similarity Measures): Cosine Similarity, Jaccard, atau kesamaan berdasarkan embedding (Similarity of Embeddings).
+
+# Analisa Sentimen
+## Tujuan Analisis Sentimen
+Tugas utama dalam analisis sentimen adalah menentukan polaritas suatu teks, baik pada tingkat dokumen, kalimat, maupun fitur/atribut tertentu. Polaritas ini biasanya dikategorikan sebagai positif, netral, atau negatif.
+
+## Contoh Penerapan Analisis Sentimen
+- Prediksi Suara Publik: menganalisis opini dari tweet atau postingan media sosial untuk mengetahui sikap masyarakat terhadap isu tertentu, misalnya politik.
+- Analisis Ulasan Produk: menilai kepuasan pelanggan terhadap produk atau layanan, misalnya terkait kualitas, desain, atau harga.
 
 
 This is just a simple starter to get you started.
