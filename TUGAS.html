@@ -180,6 +180,12 @@
         </ul>
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">TUGAS</a></li>
+
+
+
+
+
+
 </ul>
 
     </div>
@@ -375,13 +381,25 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">TUGAS</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengantar-web-mining">Pengantar Web Mining</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definisi">Definisi</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tantangan-pemrosesan-data-web">Tantangan Pemrosesan Data Web</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-roles-and-directives">Sample Roles and Directives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citations">Citations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">Learn more</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#penambangan-isi-web-content-mining">Penambangan Isi Web (Content Mining)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#klasifikasi-dokumen">Klasifikasi Dokumen</a></li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-klasifikasi">Tujuan Klasifikasi</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-penerapan">Contoh Penerapan</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#metode-klasifikasi-yang-umum-digunakan">Metode Klasifikasi yang Umum Digunakan</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengelompokan-konten-content-clustering">Pengelompokan Konten (Content Clustering)</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-pengelompokan-clustering">Tujuan Pengelompokan (Clustering)</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Contoh Penerapan</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#teknik-dan-metode-yang-digunakan">Teknik dan Metode yang Digunakan</a></li>
+</ul>
+
             </nav>
         </div>
     </div>
@@ -398,12 +416,9 @@ document.write(`
 <h2>Pengantar Web Mining<a class="headerlink" href="#pengantar-web-mining" title="Link to this heading">#</a></h2>
 <p>Penambangan web adalah proses mencari dan mengekstrak informasi dari internet dengan menggunakan berbagai teknik data mining. Informasi yang diperoleh dapat membantu perusahaan dalam pengambilan keputusan secara lebih efektif. Berdasarkan tugas utama yang dilakukan selama proses penambangan, web mining dapat dibagi menjadi tiga kategori utama: Web Structure Mining, Web Content Mining, dan Web Usage Mining.</p>
 <ol class="arabic simple">
-<li><p>Web Structure Mining
-Web structure mining berfokus pada penemuan informasi yang berguna dari hyperlink atau tautan, yang mencerminkan struktur suatu situs web. Contohnya, dari pola tautan kita bisa menemukan halaman web yang penting, yang menjadi dasar teknologi pada mesin pencari. Selain itu, struktur link juga bisa membantu mengidentifikasi komunitas dalam media sosial. Teknik ini tidak dapat dilakukan dengan data mining tradisional, karena data tabel biasa tidak memiliki struktur tautan seperti ini.</p></li>
-<li><p>Web Content Mining
-Web content mining bertujuan untuk mengekstrak informasi atau pengetahuan yang berguna dari isi halaman web. Misalnya, kita dapat secara otomatis mengklasifikasikan dan mengelompokkan halaman web berdasarkan topiknya. Tugas ini serupa dengan data mining konvensional, tetapi memungkinkan kita untuk menambang data spesifik di situs web, seperti deskripsi produk, postingan forum, atau ulasan konsumen, untuk berbagai tujuan. Hal ini tidak tersedia dalam data mining tradisional.</p></li>
-<li><p>Web Usage Mining
-Data penggunaan situs web biasanya dikumpulkan dari Web Server dan Server Aplikasi sebagai sumber utama. Data ini berupa log, yang tercatat setiap kali pengguna berinteraksi dengan halaman web. Berdasarkan sumbernya, log dapat dibagi menjadi tiga jenis: sisi server, sisi klien/pengguna, dan sisi proxy. Selain itu, terdapat sumber data tambahan, seperti cookies, data demografis, dan informasi lain yang relevan.</p></li>
+<li><p>Web Structure Mining : Web structure mining berfokus pada penemuan informasi yang berguna dari hyperlink atau tautan, yang mencerminkan struktur suatu situs web. Contohnya, dari pola tautan kita bisa menemukan halaman web yang penting, yang menjadi dasar teknologi pada mesin pencari. Selain itu, struktur link juga bisa membantu mengidentifikasi komunitas dalam media sosial. Teknik ini tidak dapat dilakukan dengan data mining tradisional, karena data tabel biasa tidak memiliki struktur tautan seperti ini.</p></li>
+<li><p>Web Content Mining : Web content mining bertujuan untuk mengekstrak informasi atau pengetahuan yang berguna dari isi halaman web. Misalnya, kita dapat secara otomatis mengklasifikasikan dan mengelompokkan halaman web berdasarkan topiknya. Tugas ini serupa dengan data mining konvensional, tetapi memungkinkan kita untuk menambang data spesifik di situs web, seperti deskripsi produk, postingan forum, atau ulasan konsumen, untuk berbagai tujuan. Hal ini tidak tersedia dalam data mining tradisional.</p></li>
+<li><p>Web Usage Mining : Data penggunaan situs web biasanya dikumpulkan dari Web Server dan Server Aplikasi sebagai sumber utama. Data ini berupa log, yang tercatat setiap kali pengguna berinteraksi dengan halaman web. Berdasarkan sumbernya, log dapat dibagi menjadi tiga jenis: sisi server, sisi klien/pengguna, dan sisi proxy. Selain itu, terdapat sumber data tambahan, seperti cookies, data demografis, dan informasi lain yang relevan.</p></li>
 </ol>
 </section>
 <section id="definisi">
@@ -426,46 +441,86 @@ Data penggunaan situs web biasanya dikumpulkan dari Web Server dan Server Aplika
 </li>
 </ul>
 </section>
-<section id="sample-roles-and-directives">
-<h2>Sample Roles and Directives<a class="headerlink" href="#sample-roles-and-directives" title="Link to this heading">#</a></h2>
-<p>Roles and directives are two of the most powerful tools in Jupyter Book. They
-are like functions, but written in a markup language. They both
-serve a similar purpose, but <strong>roles are written in one line</strong>, whereas
-<strong>directives span many lines</strong>. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.</p>
-<p>Here is a “note” directive:</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Here is a note</p>
-</div>
-<p>It will be rendered in a special box when you build your book.</p>
-<p>Here is an inline directive to refer to a document: <span class="xref std std-doc">markdown-notebooks</span>.</p>
+<section id="penambangan-isi-web-content-mining">
+<h2>Penambangan Isi Web (Content Mining)<a class="headerlink" href="#penambangan-isi-web-content-mining" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Proses Pengambilan Informasi dari Dokumen Web
+Proses ini bertujuan untuk mendapatkan informasi yang bermanfaat dari berbagai dokumen di web. Pendekatannya menitikberatkan pada isi halaman web, antara lain:</p>
+<ul class="simple">
+<li><p>Teks (Text Mining): mencakup artikel, deskripsi produk, maupun komentar pengguna.</p></li>
+<li><p>Gambar (Image Mining): mencakup foto, ilustrasi, atau grafis lainnya.</p></li>
+<li><p>Audio (Audio Mining): meliputi rekaman suara, musik, atau klip audio lainnya.</p></li>
+<li><p>Video (Video Mining): mencakup video streaming, cuplikan, atau konten multimedia.</p></li>
+<li><p>Data Terstruktur: informasi dalam bentuk tabel, daftar, atau format yang terorganisir lainnya.</p></li>
+</ul>
+</li>
+<li><p>Contoh Penerapan Text Mining
+Text mining dapat digunakan untuk berbagai tujuan praktis, seperti:</p>
+<ul class="simple">
+<li><p>Ekstraksi Informasi: mengambil fakta atau data penting dari teks.</p></li>
+<li><p>Pemodelan Topik (Topic Modelling): mengidentifikasi tema utama dalam kumpulan dokumen.</p></li>
+<li><p>Ringkasan Dokumen: membuat versi singkat dari teks panjang.</p></li>
+<li><p>Klasifikasi Dokumen: termasuk analisis sentimen atau penilaian opini.</p></li>
+<li><p>Pengelompokan Dokumen: membagi dokumen ke dalam kelompok berdasarkan kemiripan, misalnya untuk sistem rekomendasi.</p></li>
+<li><p>Ekstraksi Kata Kunci: menemukan istilah atau frasa penting dalam teks.</p></li>
+</ul>
+</li>
+</ol>
 </section>
-<section id="citations">
-<h2>Citations<a class="headerlink" href="#citations" title="Link to this heading">#</a></h2>
-<p>You can also cite references that are stored in a <code class="docutils literal notranslate"><span class="pre">bibtex</span></code> file. For example,
-the following syntax: <code class="docutils literal notranslate"><span class="pre">{cite}`holdgraf_evidence_2014`</span></code> will render like
-this: <span id="id1">[<a class="reference internal" href="#id3" title="Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In International Conference on Cognitive Neuroscience. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.">HdHPK14</a>]</span>.</p>
-<p>Moreover, you can insert a bibliography into your page with this syntax:
-The <code class="docutils literal notranslate"><span class="pre">{bibliography}</span></code> directive must be used for all the <code class="docutils literal notranslate"><span class="pre">{cite}</span></code> roles to
-render properly.
-For example, if the references for your book are stored in <code class="docutils literal notranslate"><span class="pre">references.bib</span></code>,
-then the bibliography is inserted with:</p>
-<div class="docutils container" id="id2">
-<div role="list" class="citation-list">
-<div class="citation" id="id3" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">HdHPK14</a><span class="fn-bracket">]</span></span>
-<p>Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In <em>International Conference on Cognitive Neuroscience</em>. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.</p>
-</div>
-</div>
-</div>
+<section id="klasifikasi-dokumen">
+<h2>Klasifikasi Dokumen<a class="headerlink" href="#klasifikasi-dokumen" title="Link to this heading">#</a></h2>
 </section>
-<section id="learn-more">
-<h2>Learn more<a class="headerlink" href="#learn-more" title="Link to this heading">#</a></h2>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="tujuan-klasifikasi">
+<h1>Tujuan Klasifikasi<a class="headerlink" href="#tujuan-klasifikasi" title="Link to this heading">#</a></h1>
+<p>Proses klasifikasi bertujuan agar dokumen atau gambar yang sebelumnya belum pernah diolah dapat ditempatkan ke dalam kategori yang sesuai dengan tingkat akurasi setinggi mungkin.</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="contoh-penerapan">
+<h1>Contoh Penerapan<a class="headerlink" href="#contoh-penerapan" title="Link to this heading">#</a></h1>
+<p>Beberapa bidang yang memanfaatkan klasifikasi antara lain:</p>
+<ul class="simple">
+<li><p>Pengelompokan Berita: menempatkan artikel ke kategori topik tertentu.</p></li>
+<li><p>Pengelompokan Produk: mengklasifikasikan produk berdasarkan jenis atau kategori.</p></li>
+<li><p>Deteksi Spam: mengenali pesan atau konten yang bersifat spam.</p></li>
+</ul>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="metode-klasifikasi-yang-umum-digunakan">
+<h1>Metode Klasifikasi yang Umum Digunakan<a class="headerlink" href="#metode-klasifikasi-yang-umum-digunakan" title="Link to this heading">#</a></h1>
+<p>Beberapa teknik populer dalam klasifikasi meliputi:</p>
+<ul class="simple">
+<li><p>Naive Bayes</p></li>
+<li><p>Support Vector Machines (SVM)</p></li>
+<li><p>Jaringan Saraf Tiruan (Deep Neural Networks)</p></li>
+<li><p>Transformers</p></li>
+</ul>
+<section id="pengelompokan-konten-content-clustering">
+<h2>Pengelompokan Konten (Content Clustering)<a class="headerlink" href="#pengelompokan-konten-content-clustering" title="Link to this heading">#</a></h2>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="tujuan-pengelompokan-clustering">
+<h1>Tujuan Pengelompokan (Clustering)<a class="headerlink" href="#tujuan-pengelompokan-clustering" title="Link to this heading">#</a></h1>
+<p>Diberikan sekumpulan dokumen beserta ukuran kesamaan antar dokumen, tujuan clustering adalah membentuk kelompok sedemikian rupa sehingga:</p>
+<ul class="simple">
+<li><p>Dokumen di dalam satu kelompok memiliki kemiripan yang tinggi.</p></li>
+<li><p>Dokumen di kelompok yang berbeda memiliki kemiripan yang rendah.</p></li>
+</ul>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>Contoh Penerapan<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<p>Beberapa aplikasi clustering antara lain:</p>
+<ul class="simple">
+<li><p>Pengelompokan Hasil Pencarian: menyusun hasil search engine agar dokumen sejenis berada dalam satu kelompok.</p></li>
+<li><p>Penemuan Topik (Topic Discovery): menemukan tema atau topik tersembunyi dalam kumpulan dokumen.</p></li>
+</ul>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="teknik-dan-metode-yang-digunakan">
+<h1>Teknik dan Metode yang Digunakan<a class="headerlink" href="#teknik-dan-metode-yang-digunakan" title="Link to this heading">#</a></h1>
+<ul class="simple">
+<li><p>Algoritma Clustering: K-Means, Pengelompokan Hierarkis (Hierarchical Clustering), S-BERT.</p></li>
+<li><p>Ukuran Kesamaan (Similarity Measures): Cosine Similarity, Jaccard, atau kesamaan berdasarkan embedding (Similarity of Embeddings).</p></li>
+</ul>
 <p>This is just a simple starter to get you started.
 You can learn a lot more at <a class="reference external" href="https://jupyterbook.org">jupyterbook.org</a>.</p>
-</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -523,13 +578,25 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">TUGAS</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengantar-web-mining">Pengantar Web Mining</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definisi">Definisi</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tantangan-pemrosesan-data-web">Tantangan Pemrosesan Data Web</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-roles-and-directives">Sample Roles and Directives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citations">Citations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">Learn more</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#penambangan-isi-web-content-mining">Penambangan Isi Web (Content Mining)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#klasifikasi-dokumen">Klasifikasi Dokumen</a></li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-klasifikasi">Tujuan Klasifikasi</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-penerapan">Contoh Penerapan</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#metode-klasifikasi-yang-umum-digunakan">Metode Klasifikasi yang Umum Digunakan</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengelompokan-konten-content-clustering">Pengelompokan Konten (Content Clustering)</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-pengelompokan-clustering">Tujuan Pengelompokan (Clustering)</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Contoh Penerapan</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#teknik-dan-metode-yang-digunakan">Teknik dan Metode yang Digunakan</a></li>
+</ul>
+
   </nav></div>
 
 </div></div>
