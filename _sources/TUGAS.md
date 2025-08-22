@@ -1,25 +1,26 @@
 # TUGAS
 ## Pengantar Web Mining
 
-Penambangan web adalah proses menemukan dan mengekstrak informasi dari internet menggunakan berbagai teknik penambangan data. Informasi ini dapat digunakan oleh perusahaan untuk pengambilan keputusan yang efektif. Berdasarkan tugas pokok yang dilakukan dalam proses menambang, web mining dapat kelompokkan menjadi tiga bentuk, yaitu Web Structure Mining, Web Content Mining, dan Web Usage Mining
-1. Web struktur Mining : Web structure mining adalah tugas untuk menemukan pengetahuan yang bermanfaat dari hyperlink (atau link singkatnya), yang menyatakan struktur dari dari web. Misalkan dari link-link kita dapat menemukan web page penting, yang menjadi teknologi utama yang digunakan dalam mesin pencarian. Kita dapat juga menemukan komunitas dalam media sosial. Datamining biasa tidak melakukan tugas tersebut, karena tidak ada struktur link dalam tabel tradisional.
-2. Web Content Mining. Web content mining adalah mengektrak atau menambang informasi yang berguna atau pengetahuan dari isi halam web. Misalkan kita dapat secara otomatis mengklasifikasikan dan mengelompokkan halam wen sesuai deng topiknya. Tugas ini sama dengan data mining biasa. Akan tetapi kita juga dapat menemukan pla dalam web site untuk mengektrak data yang berguna seperti deskripsi produk, postingan forum, dan lain sebagainya untuk banyak tujuan. Selanjutnya kita dapa menambang ulasan dan postingan dari forum untuk menemukan opini konsumen. Disin tidak ada pada data mining tradisional.
+Penambangan web adalah proses mencari dan mengekstrak informasi dari internet dengan menggunakan berbagai teknik data mining. Informasi yang diperoleh dapat membantu perusahaan dalam pengambilan keputusan secara lebih efektif. Berdasarkan tugas utama yang dilakukan selama proses penambangan, web mining dapat dibagi menjadi tiga kategori utama: Web Structure Mining, Web Content Mining, dan Web Usage Mining.
+1. Web Structure Mining
+Web structure mining berfokus pada penemuan informasi yang berguna dari hyperlink atau tautan, yang mencerminkan struktur suatu situs web. Contohnya, dari pola tautan kita bisa menemukan halaman web yang penting, yang menjadi dasar teknologi pada mesin pencari. Selain itu, struktur link juga bisa membantu mengidentifikasi komunitas dalam media sosial. Teknik ini tidak dapat dilakukan dengan data mining tradisional, karena data tabel biasa tidak memiliki struktur tautan seperti ini.
+2. Web Content Mining
+Web content mining bertujuan untuk mengekstrak informasi atau pengetahuan yang berguna dari isi halaman web. Misalnya, kita dapat secara otomatis mengklasifikasikan dan mengelompokkan halaman web berdasarkan topiknya. Tugas ini serupa dengan data mining konvensional, tetapi memungkinkan kita untuk menambang data spesifik di situs web, seperti deskripsi produk, postingan forum, atau ulasan konsumen, untuk berbagai tujuan. Hal ini tidak tersedia dalam data mining tradisional.
+3. Web Usage Mining
+Data penggunaan situs web biasanya dikumpulkan dari Web Server dan Server Aplikasi sebagai sumber utama. Data ini berupa log, yang tercatat setiap kali pengguna berinteraksi dengan halaman web. Berdasarkan sumbernya, log dapat dibagi menjadi tiga jenis: sisi server, sisi klien/pengguna, dan sisi proxy. Selain itu, terdapat sumber data tambahan, seperti cookies, data demografis, dan informasi lain yang relevan.
 
 ## Definisi
+Penambangan web adalah penggunaan teknik data mining untuk menemukan dan mengekstrak informasi dari layanan web secara otomatis (Etzioni, 1996; CACM 39). Tujuannya adalah untuk menemukan pola atau pengetahuan yang berguna dari struktur hyperlink web, isi halaman web, serta perilaku pengguna (Bing Liu, 2007, Web Data Mining).
 
-Penambangan web adalah penggunaan teknik penambangan data untuk secara otomatis menemukan dan mengekstrak informasi dari layanan web" (Etzioni, 1996; CACM 39). 
-Penambangan web bertujuan untuk menemukan pola-pola berguna atau  pengetahuan dari struktur hiperlink web, isi halaman web, serta perilaku pengguna." (Bing Liu, 2007, Web Data Mining).
-
-## Tantangan pemrosesan data web 
-
-- Web adalah pangkalan data yang sangat besar.
-- Datanya dalam format HTML,XML, text
-- Tantangan pemrosesan data Web
-    - Web adalah sangat besar untuk dilakukan penambanagn data
-    - web sangat komplek
-    - web sangat dinamis
-    - web bukan domain yang spesifik
-    - web adalah segalanya.
+## Tantangan Pemrosesan Data Web
+- Web memiliki ukuran yang sangat besar.
+- Data tersedia dalam berbagai format, seperti HTML, XML, dan teks.
+- Beberapa tantangan utama dalam pemrosesan data web meliputi:
+    - Ukuran web yang sangat besar sehingga sulit diproses seluruhnya.
+    - Kompleksitas struktur web yang tinggi.
+    - Dinamika web yang cepat berubah.
+    - Tidak adanya domain spesifik yang jelas karena web bersifat umum.
+    - Web mencakup beragam konten dan jenis data.
     
 ## Sample Roles and Directives
 

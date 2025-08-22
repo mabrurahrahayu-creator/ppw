@@ -377,7 +377,7 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengantar-web-mining">Pengantar Web Mining</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definisi">Definisi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tantangan-pemrosesan-data-web">Tantangan pemrosesan data web</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tantangan-pemrosesan-data-web">Tantangan Pemrosesan Data Web</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-roles-and-directives">Sample Roles and Directives</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citations">Citations</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">Learn more</a></li>
@@ -396,29 +396,32 @@ document.write(`
 <h1>TUGAS<a class="headerlink" href="#tugas" title="Link to this heading">#</a></h1>
 <section id="pengantar-web-mining">
 <h2>Pengantar Web Mining<a class="headerlink" href="#pengantar-web-mining" title="Link to this heading">#</a></h2>
-<p>Penambangan web adalah proses menemukan dan mengekstrak informasi dari internet menggunakan berbagai teknik penambangan data. Informasi ini dapat digunakan oleh perusahaan untuk pengambilan keputusan yang efektif. Berdasarkan tugas pokok yang dilakukan dalam proses menambang, web mining dapat kelompokkan menjadi tiga bentuk, yaitu Web Structure Mining, Web Content Mining, dan Web Usage Mining</p>
+<p>Penambangan web adalah proses mencari dan mengekstrak informasi dari internet dengan menggunakan berbagai teknik data mining. Informasi yang diperoleh dapat membantu perusahaan dalam pengambilan keputusan secara lebih efektif. Berdasarkan tugas utama yang dilakukan selama proses penambangan, web mining dapat dibagi menjadi tiga kategori utama: Web Structure Mining, Web Content Mining, dan Web Usage Mining.</p>
 <ol class="arabic simple">
-<li><p>Web struktur Mining : Web structure mining adalah tugas untuk menemukan pengetahuan yang bermanfaat dari hyperlink (atau link singkatnya), yang menyatakan struktur dari dari web. Misalkan dari link-link kita dapat menemukan web page penting, yang menjadi teknologi utama yang digunakan dalam mesin pencarian. Kita dapat juga menemukan komunitas dalam media sosial. Datamining biasa tidak melakukan tugas tersebut, karena tidak ada struktur link dalam tabel tradisional.</p></li>
-<li><p>Web Content Mining. Web content mining adalah mengektrak atau menambang informasi yang berguna atau pengetahuan dari isi halam web. Misalkan kita dapat secara otomatis mengklasifikasikan dan mengelompokkan halam wen sesuai deng topiknya. Tugas ini sama dengan data mining biasa. Akan tetapi kita juga dapat menemukan pla dalam web site untuk mengektrak data yang berguna seperti deskripsi produk, postingan forum, dan lain sebagainya untuk banyak tujuan. Selanjutnya kita dapa menambang ulasan dan postingan dari forum untuk menemukan opini konsumen. Disin tidak ada pada data mining tradisional.</p></li>
+<li><p>Web Structure Mining
+Web structure mining berfokus pada penemuan informasi yang berguna dari hyperlink atau tautan, yang mencerminkan struktur suatu situs web. Contohnya, dari pola tautan kita bisa menemukan halaman web yang penting, yang menjadi dasar teknologi pada mesin pencari. Selain itu, struktur link juga bisa membantu mengidentifikasi komunitas dalam media sosial. Teknik ini tidak dapat dilakukan dengan data mining tradisional, karena data tabel biasa tidak memiliki struktur tautan seperti ini.</p></li>
+<li><p>Web Content Mining
+Web content mining bertujuan untuk mengekstrak informasi atau pengetahuan yang berguna dari isi halaman web. Misalnya, kita dapat secara otomatis mengklasifikasikan dan mengelompokkan halaman web berdasarkan topiknya. Tugas ini serupa dengan data mining konvensional, tetapi memungkinkan kita untuk menambang data spesifik di situs web, seperti deskripsi produk, postingan forum, atau ulasan konsumen, untuk berbagai tujuan. Hal ini tidak tersedia dalam data mining tradisional.</p></li>
+<li><p>Web Usage Mining
+Data penggunaan situs web biasanya dikumpulkan dari Web Server dan Server Aplikasi sebagai sumber utama. Data ini berupa log, yang tercatat setiap kali pengguna berinteraksi dengan halaman web. Berdasarkan sumbernya, log dapat dibagi menjadi tiga jenis: sisi server, sisi klien/pengguna, dan sisi proxy. Selain itu, terdapat sumber data tambahan, seperti cookies, data demografis, dan informasi lain yang relevan.</p></li>
 </ol>
 </section>
 <section id="definisi">
 <h2>Definisi<a class="headerlink" href="#definisi" title="Link to this heading">#</a></h2>
-<p>Penambangan web adalah penggunaan teknik penambangan data untuk secara otomatis menemukan dan mengekstrak informasi dari layanan web” (Etzioni, 1996; CACM 39).
-Penambangan web bertujuan untuk menemukan pola-pola berguna atau  pengetahuan dari struktur hiperlink web, isi halaman web, serta perilaku pengguna.” (Bing Liu, 2007, Web Data Mining).</p>
+<p>Penambangan web adalah penggunaan teknik data mining untuk menemukan dan mengekstrak informasi dari layanan web secara otomatis (Etzioni, 1996; CACM 39). Tujuannya adalah untuk menemukan pola atau pengetahuan yang berguna dari struktur hyperlink web, isi halaman web, serta perilaku pengguna (Bing Liu, 2007, Web Data Mining).</p>
 </section>
 <section id="tantangan-pemrosesan-data-web">
-<h2>Tantangan pemrosesan data web<a class="headerlink" href="#tantangan-pemrosesan-data-web" title="Link to this heading">#</a></h2>
+<h2>Tantangan Pemrosesan Data Web<a class="headerlink" href="#tantangan-pemrosesan-data-web" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p>Web adalah pangkalan data yang sangat besar.</p></li>
-<li><p>Datanya dalam format HTML,XML, text</p></li>
-<li><p>Tantangan pemrosesan data Web</p>
+<li><p>Web memiliki ukuran yang sangat besar.</p></li>
+<li><p>Data tersedia dalam berbagai format, seperti HTML, XML, dan teks.</p></li>
+<li><p>Beberapa tantangan utama dalam pemrosesan data web meliputi:</p>
 <ul>
-<li><p>Web adalah sangat besar untuk dilakukan penambanagn data</p></li>
-<li><p>web sangat komplek</p></li>
-<li><p>web sangat dinamis</p></li>
-<li><p>web bukan domain yang spesifik</p></li>
-<li><p>web adalah segalanya.</p></li>
+<li><p>Ukuran web yang sangat besar sehingga sulit diproses seluruhnya.</p></li>
+<li><p>Kompleksitas struktur web yang tinggi.</p></li>
+<li><p>Dinamika web yang cepat berubah.</p></li>
+<li><p>Tidak adanya domain spesifik yang jelas karena web bersifat umum.</p></li>
+<li><p>Web mencakup beragam konten dan jenis data.</p></li>
 </ul>
 </li>
 </ul>
@@ -522,7 +525,7 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengantar-web-mining">Pengantar Web Mining</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definisi">Definisi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tantangan-pemrosesan-data-web">Tantangan pemrosesan data web</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tantangan-pemrosesan-data-web">Tantangan Pemrosesan Data Web</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-roles-and-directives">Sample Roles and Directives</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citations">Citations</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">Learn more</a></li>
