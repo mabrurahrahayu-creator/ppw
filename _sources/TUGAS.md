@@ -79,34 +79,36 @@ Tugas utama dalam analisis sentimen adalah menentukan polaritas suatu teks, baik
 - Analisis Ulasan Produk: menilai kepuasan pelanggan terhadap produk atau layanan, misalnya terkait kualitas, desain, atau harga.
 
 # Ekstraksi Informasi (Information Extraction)
-1. Tujuan
+## Tujuan Estraksi 
 Mengambil informasi terstruktur secara otomatis dari konten web yang awalnya tidak terstruktur atau semi-terstruktur.
-2. Tantangan
+
+## Tantangan
 - Informasi tersembunyi dalam format HTML seperti tabel, DOM tree, dan teks bebas.
 - Perlu menangani data yang diperoleh dari API dan berbagai format.
-3. Pendekatan
+
+## Pendekatan Estraksi
 - Menggunakan parser HTML untuk mengekstrak data.
 - Memanfaatkan model berbasis LLM (Large Language Model) untuk memahami konteks teks.
 
 # Web Usage Mining
 Pengertian: Proses menemukan pola dari data yang dihasilkan oleh aktivitas pengguna di web, seperti kunjungan halaman atau transaksi.
-Sumber Data:
+## Sumber Data
 - Log server.
 - Cookie pengguna.
 - Jejak klik (clickstream) yang merekam urutan interaksi pengguna.
-Tujuan:
+## Tujuan Web Usage mining
 - Memahami perilaku pengguna.
 - Membangun profil pengguna untuk memberikan layanan yang lebih personal.
-Contoh Aplikasi:
+## Contoh Aplikasi Web
 - Rekomendasi Produk: Sistem yang menyarankan produk berdasarkan kebiasaan pengguna.
 - Pencarian Personal: Menyesuaikan hasil pencarian dengan preferensi pengguna.
 
 # Web Structure Mining
 Pengertian: Proses analisis pola yang terdapat pada struktur hyperlink dan jaringan sosial di web.
-Sumber Data:
+## Sumber Data
 - Jaringan hyperlink (web graph).
 - Data dari media sosial, forum, dan komunikasi online.
-Contoh Aplikasi:
+## Contoh Aplikasi
 - PageRank: Digunakan Google untuk menentukan urutan hasil pencarian.
 - Analisis Jaringan Sosial: Mencari aktor penting atau influencer.
 - Deteksi Komunitas: Mengidentifikasi kelompok pengguna yang memiliki interaksi intensif.
