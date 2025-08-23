@@ -115,9 +115,7 @@ Pengertian: Proses analisis pola yang terdapat pada struktur hyperlink dan jarin
 
 # Proses Web Mining
 Tahapan utama dalam web mining meliputi:
-
 ## Pengumpulan dan Eksplorasi Data
-
 1. Crawling halaman web.
 2. Menggunakan API untuk mengambil data.
 3. Eksplorasi data dengan visualisasi dan statistik.
