@@ -184,6 +184,10 @@
 
 
 
+
+
+
+
 </ul>
 
     </div>
@@ -403,6 +407,29 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-penerapan-analisis-sentimen">Contoh Penerapan Analisis Sentimen</a></li>
 </ul>
 </li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#ekstraksi-informasi-information-extraction">Ekstraksi Informasi (Information Extraction)</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan">Tujuan:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tantangan">Tantangan:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pendekatan">Pendekatan:</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#web-usage-mining">Web Usage Mining</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sumber-data">Sumber Data:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Tujuan:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-aplikasi">Contoh Aplikasi:</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#web-structure-mining">Web Structure Mining</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Sumber Data:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Contoh Aplikasi:</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#proses-web-mining">Proses Web Mining</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengumpulan-dan-eksplorasi-data">Pengumpulan dan Eksplorasi Data:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pra-pemrosesan-dan-transformasi">Pra-pemrosesan dan Transformasi:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-mining-dan-evaluasi">Data Mining dan Evaluasi:</a></li>
+</ul>
+</li>
 </ul>
 
             </nav>
@@ -537,8 +564,100 @@ Text mining dapat digunakan untuk berbagai tujuan praktis, seperti:</p>
 <li><p>Prediksi Suara Publik: menganalisis opini dari tweet atau postingan media sosial untuk mengetahui sikap masyarakat terhadap isu tertentu, misalnya politik.</p></li>
 <li><p>Analisis Ulasan Produk: menilai kepuasan pelanggan terhadap produk atau layanan, misalnya terkait kualitas, desain, atau harga.</p></li>
 </ul>
-<p>This is just a simple starter to get you started.
-You can learn a lot more at <a class="reference external" href="https://jupyterbook.org">jupyterbook.org</a>.</p>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="ekstraksi-informasi-information-extraction">
+<h1>Ekstraksi Informasi (Information Extraction)<a class="headerlink" href="#ekstraksi-informasi-information-extraction" title="Link to this heading">#</a></h1>
+<section id="tujuan">
+<h2>Tujuan:<a class="headerlink" href="#tujuan" title="Link to this heading">#</a></h2>
+<p>Mengambil informasi terstruktur secara otomatis dari konten web yang awalnya tidak terstruktur atau semi-terstruktur.</p>
+</section>
+<section id="tantangan">
+<h2>Tantangan:<a class="headerlink" href="#tantangan" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Informasi tersembunyi dalam format HTML seperti tabel, DOM tree, dan teks bebas.</p></li>
+<li><p>Perlu menangani data yang diperoleh dari API dan berbagai format.</p></li>
+</ul>
+</section>
+<section id="pendekatan">
+<h2>Pendekatan:<a class="headerlink" href="#pendekatan" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Menggunakan parser HTML untuk mengekstrak data.</p></li>
+<li><p>Memanfaatkan model berbasis LLM (Large Language Model) untuk memahami konteks teks.</p></li>
+</ul>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="web-usage-mining">
+<h1>Web Usage Mining<a class="headerlink" href="#web-usage-mining" title="Link to this heading">#</a></h1>
+<p>Pengertian: Proses menemukan pola dari data yang dihasilkan oleh aktivitas pengguna di web, seperti kunjungan halaman atau transaksi.</p>
+<section id="sumber-data">
+<h2>Sumber Data:<a class="headerlink" href="#sumber-data" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Log server.</p></li>
+<li><p>Cookie pengguna.</p></li>
+<li><p>Jejak klik (clickstream) yang merekam urutan interaksi pengguna.</p></li>
+</ul>
+</section>
+<section id="id2">
+<h2>Tujuan:<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Memahami perilaku pengguna.</p></li>
+<li><p>Membangun profil pengguna untuk memberikan layanan yang lebih personal.</p></li>
+</ul>
+</section>
+<section id="contoh-aplikasi">
+<h2>Contoh Aplikasi:<a class="headerlink" href="#contoh-aplikasi" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Rekomendasi Produk: Sistem yang menyarankan produk berdasarkan kebiasaan pengguna.</p></li>
+<li><p>Pencarian Personal: Menyesuaikan hasil pencarian dengan preferensi pengguna.</p></li>
+</ul>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="web-structure-mining">
+<h1>Web Structure Mining<a class="headerlink" href="#web-structure-mining" title="Link to this heading">#</a></h1>
+<p>Pengertian: Proses analisis pola yang terdapat pada struktur hyperlink dan jaringan sosial di web.</p>
+<section id="id3">
+<h2>Sumber Data:<a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Jaringan hyperlink (web graph).</p></li>
+<li><p>Data dari media sosial, forum, dan komunikasi online.</p></li>
+</ul>
+</section>
+<section id="id4">
+<h2>Contoh Aplikasi:<a class="headerlink" href="#id4" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>PageRank: Digunakan Google untuk menentukan urutan hasil pencarian.</p></li>
+<li><p>Analisis Jaringan Sosial: Mencari aktor penting atau influencer.</p></li>
+<li><p>Deteksi Komunitas: Mengidentifikasi kelompok pengguna yang memiliki interaksi intensif.</p></li>
+</ul>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="proses-web-mining">
+<h1>Proses Web Mining<a class="headerlink" href="#proses-web-mining" title="Link to this heading">#</a></h1>
+<p>Tahapan utama dalam web mining meliputi:</p>
+<section id="pengumpulan-dan-eksplorasi-data">
+<h2>Pengumpulan dan Eksplorasi Data:<a class="headerlink" href="#pengumpulan-dan-eksplorasi-data" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Crawling halaman web.</p></li>
+<li><p>Menggunakan API untuk mengambil data.</p></li>
+<li><p>Eksplorasi data dengan visualisasi dan statistik.</p></li>
+</ol>
+</section>
+<section id="pra-pemrosesan-dan-transformasi">
+<h2>Pra-pemrosesan dan Transformasi:<a class="headerlink" href="#pra-pemrosesan-dan-transformasi" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Membersihkan dan menyiapkan data agar sesuai dengan metode mining.</p></li>
+<li><p>Reduksi dimensi, seleksi fitur, dan representasi teks (misalnya vektor/embedding).</p></li>
+</ol>
+</section>
+<section id="data-mining-dan-evaluasi">
+<h2>Data Mining dan Evaluasi:<a class="headerlink" href="#data-mining-dan-evaluasi" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Menerapkan metode seperti klasifikasi, clustering, atau analisis sentimen.</p></li>
+<li><p>Mengevaluasi hasil dan melakukan iterasi untuk perbaikan.
+This is just a simple starter to get you started.
+You can learn a lot more at <a class="reference external" href="https://jupyterbook.org">jupyterbook.org</a>.</p></li>
+</ol>
 </section>
 </section>
 
@@ -619,6 +738,29 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#analisa-sentimen">Analisa Sentimen</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-analisis-sentimen">Tujuan Analisis Sentimen</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-penerapan-analisis-sentimen">Contoh Penerapan Analisis Sentimen</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#ekstraksi-informasi-information-extraction">Ekstraksi Informasi (Information Extraction)</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan">Tujuan:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tantangan">Tantangan:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pendekatan">Pendekatan:</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#web-usage-mining">Web Usage Mining</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sumber-data">Sumber Data:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Tujuan:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-aplikasi">Contoh Aplikasi:</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#web-structure-mining">Web Structure Mining</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Sumber Data:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Contoh Aplikasi:</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#proses-web-mining">Proses Web Mining</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengumpulan-dan-eksplorasi-data">Pengumpulan dan Eksplorasi Data:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pra-pemrosesan-dan-transformasi">Pra-pemrosesan dan Transformasi:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-mining-dan-evaluasi">Data Mining dan Evaluasi:</a></li>
 </ul>
 </li>
 </ul>

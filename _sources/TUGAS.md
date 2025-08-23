@@ -78,6 +78,61 @@ Tugas utama dalam analisis sentimen adalah menentukan polaritas suatu teks, baik
 - Prediksi Suara Publik: menganalisis opini dari tweet atau postingan media sosial untuk mengetahui sikap masyarakat terhadap isu tertentu, misalnya politik.
 - Analisis Ulasan Produk: menilai kepuasan pelanggan terhadap produk atau layanan, misalnya terkait kualitas, desain, atau harga.
 
+# Ekstraksi Informasi (Information Extraction)
+## Tujuan:
+Mengambil informasi terstruktur secara otomatis dari konten web yang awalnya tidak terstruktur atau semi-terstruktur.
 
+## Tantangan:
+- Informasi tersembunyi dalam format HTML seperti tabel, DOM tree, dan teks bebas.
+- Perlu menangani data yang diperoleh dari API dan berbagai format.
+
+## Pendekatan:
+- Menggunakan parser HTML untuk mengekstrak data.
+- Memanfaatkan model berbasis LLM (Large Language Model) untuk memahami konteks teks.
+
+# Web Usage Mining
+Pengertian: Proses menemukan pola dari data yang dihasilkan oleh aktivitas pengguna di web, seperti kunjungan halaman atau transaksi.
+
+## Sumber Data:
+- Log server.
+- Cookie pengguna.
+- Jejak klik (clickstream) yang merekam urutan interaksi pengguna.
+
+## Tujuan:
+- Memahami perilaku pengguna.
+- Membangun profil pengguna untuk memberikan layanan yang lebih personal.
+
+## Contoh Aplikasi:
+- Rekomendasi Produk: Sistem yang menyarankan produk berdasarkan kebiasaan pengguna.
+- Pencarian Personal: Menyesuaikan hasil pencarian dengan preferensi pengguna.
+
+# Web Structure Mining
+Pengertian: Proses analisis pola yang terdapat pada struktur hyperlink dan jaringan sosial di web.
+
+## Sumber Data:
+- Jaringan hyperlink (web graph).
+- Data dari media sosial, forum, dan komunikasi online.
+
+## Contoh Aplikasi:
+- PageRank: Digunakan Google untuk menentukan urutan hasil pencarian.
+- Analisis Jaringan Sosial: Mencari aktor penting atau influencer.
+- Deteksi Komunitas: Mengidentifikasi kelompok pengguna yang memiliki interaksi intensif.
+
+# Proses Web Mining
+Tahapan utama dalam web mining meliputi:
+
+## Pengumpulan dan Eksplorasi Data:
+
+1. Crawling halaman web.
+2. Menggunakan API untuk mengambil data.
+3. Eksplorasi data dengan visualisasi dan statistik.
+
+## Pra-pemrosesan dan Transformasi:
+1. Membersihkan dan menyiapkan data agar sesuai dengan metode mining.
+2. Reduksi dimensi, seleksi fitur, dan representasi teks (misalnya vektor/embedding).
+
+## Data Mining dan Evaluasi:
+1. Menerapkan metode seperti klasifikasi, clustering, atau analisis sentimen.
+2.  Mengevaluasi hasil dan melakukan iterasi untuk perbaikan.
 This is just a simple starter to get you started.
 You can learn a lot more at [jupyterbook.org](https://jupyterbook.org).
