@@ -129,5 +129,7 @@ Tahapan utama dalam web mining meliputi:
 ## Data Mining dan Evaluasi
 1. Menerapkan metode seperti klasifikasi, clustering, atau analisis sentimen.
 2.  Mengevaluasi hasil dan melakukan iterasi untuk perbaikan.
+
+
 This is just a simple starter to get you started.
 You can learn a lot more at [jupyterbook.org](https://jupyterbook.org).
