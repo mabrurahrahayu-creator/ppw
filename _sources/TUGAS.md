@@ -79,14 +79,12 @@ Tugas utama dalam analisis sentimen adalah menentukan polaritas suatu teks, baik
 - Analisis Ulasan Produk: menilai kepuasan pelanggan terhadap produk atau layanan, misalnya terkait kualitas, desain, atau harga.
 
 # Ekstraksi Informasi (Information Extraction)
-## Tujuan:
+1. Tujuan
 Mengambil informasi terstruktur secara otomatis dari konten web yang awalnya tidak terstruktur atau semi-terstruktur.
-
-## Tantangan:
+2. Tantangan
 - Informasi tersembunyi dalam format HTML seperti tabel, DOM tree, dan teks bebas.
 - Perlu menangani data yang diperoleh dari API dan berbagai format.
-
-## Pendekatan:
+3. Pendekatan
 - Menggunakan parser HTML untuk mengekstrak data.
 - Memanfaatkan model berbasis LLM (Large Language Model) untuk memahami konteks teks.
 
